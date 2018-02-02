@@ -1,0 +1,26 @@
+{
+    "name": "gounlaf/psr7-streams",
+    "description": "Streams decorator for PSR-7",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gounlaf",
+            "email": "me@levisflorian.name"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "psr/http-message": "~1.0",
+        "guzzlehttp/psr7": "^1.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.0",
+        "symfony/var-dumper": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gounlaf\\Psr7streams\\": "src/"
+        }
+    }
+}
